@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sales",
+    "name": "Sales",
+    "shortSummary": "Own pipeline, run persuasive conversations, and turn business value into revenue momentum.",
+    "realityCheck": "This is not just being outgoing. Early sales roles usually involve quota pressure, repetition, and resilience after rejection.",
+    "commonEntryTitles": ["Sales Development Representative", "Business Development Representative", "Account Executive"],
+    "difficulty": "Moderate",
+    "stretchTendency": "Usually reachable early if you genuinely enjoy persuasion, outreach, and direct ownership.",
+    "detail": "Business-side sales roles in tech center on discovery, value framing, objection handling, and moving buying conversations forward. Strong fits usually enjoy fast-paced communication, ownership, and commercial pressure.",
+    "emphasisDimensions": ["communication", "persuasion", "initiative_ownership", "presentation_comfort", "customer_empathy"]
+  },
+  {
+    "id": "sales_engineering",
+    "name": "Sales Engineering",
+    "shortSummary": "Translate product capabilities into clear customer-facing solutions and handle technical credibility in the sales cycle.",
+    "realityCheck": "This role sounds glamorous from the outside, but companies usually expect real technical fluency, product depth, and live-demo composure.",
+    "commonEntryTitles": ["Associate Solutions Engineer", "Sales Engineer", "Solutions Consultant"],
+    "difficulty": "Guarded",
+    "stretchTendency": "Often a stretch without strong technical comfort, presentation confidence, and technical proof points.",
+    "detail": "Sales Engineering sits between product depth and commercial storytelling. The strongest fits can explain systems clearly, handle technical questions under pressure, and connect product capabilities to customer outcomes.",
+    "emphasisDimensions": ["technical_comfort", "systems_thinking", "communication", "presentation_comfort", "customer_empathy"]
+  },
+  {
+    "id": "project_program_management",
+    "name": "Project / Program Management",
+    "shortSummary": "Create structure, coordinate work across teams, and keep execution moving from plan to delivery.",
+    "realityCheck": "Good PMs are not meeting schedulers. They create operating clarity, manage risk, and maintain credibility with busy stakeholders.",
+    "commonEntryTitles": ["Project Coordinator", "Program Coordinator", "Operations Program Associate"],
+    "difficulty": "Moderate to Guarded",
+    "stretchTendency": "Reachable when process, execution, and collaboration are already strong. TPM-leaning versions need extra technical credibility.",
+    "detail": "This family rewards people who naturally build order, track dependencies, and follow through. Technical Program Management is represented here as a guarded variant for candidates who pair that execution strength with stronger systems and technical fluency.",
+    "emphasisDimensions": ["process_thinking", "execution_discipline", "cross_functional_collaboration", "initiative_ownership", "systems_thinking"]
+  },
+  {
+    "id": "product_management",
+    "name": "Product Management",
+    "shortSummary": "Turn customer insight, business tradeoffs, and cross-functional judgment into product direction.",
+    "realityCheck": "Entry-level PM is often over-romanticized. Most teams want evidence that you can synthesize users, data, ambiguity, and stakeholder tradeoffs before they trust you with product calls.",
+    "commonEntryTitles": ["Associate Product Manager", "Product Analyst", "Growth Product Analyst"],
+    "difficulty": "Guarded",
+    "stretchTendency": "Deliberately hard to recommend without strong customer, analytical, ownership, and cross-functional evidence.",
+    "detail": "Product Management is about decision quality under ambiguity, not just ideation. Strong fits can learn from customers, frame tradeoffs, and create momentum across design, engineering, and business partners.",
+    "emphasisDimensions": ["customer_empathy", "analytical_reasoning", "ambiguity_tolerance", "cross_functional_collaboration", "initiative_ownership"]
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "shortSummary": "Use numbers, models, and operating metrics to support planning, analysis, and business decisions.",
+    "realityCheck": "Finance roles demand comfort with metrics, disciplined thinking, and credibility with assumptions. It is not just 'business strategy with spreadsheets.'",
+    "commonEntryTitles": ["Financial Analyst", "FP&A Analyst", "Revenue Analyst"],
+    "difficulty": "Moderate",
+    "stretchTendency": "Reachable when quantitative comfort and analytical discipline are already visible.",
+    "detail": "Finance roles in tech often support forecasting, planning, KPI tracking, and scenario analysis. Candidates who like models, metrics, and decision support usually show the strongest fit.",
+    "emphasisDimensions": ["quantitative_comfort", "analytical_reasoning", "detail_orientation", "execution_discipline", "communication"]
+  },
+  {
+    "id": "accounting",
+    "name": "Accounting",
+    "shortSummary": "Protect financial accuracy, controls, and reporting discipline across recurring business operations.",
+    "realityCheck": "Accounting is less about broad strategy and more about consistency, controls, and accuracy when details really matter.",
+    "commonEntryTitles": ["Staff Accountant", "Accounting Analyst", "Revenue Accounting Associate"],
+    "difficulty": "Moderate",
+    "stretchTendency": "Best when detail orientation and quantitative comfort are clearly stronger than average.",
+    "detail": "Accounting roles reward people who are reliable with detail, disciplined with process, and comfortable working through reconciliations, records, and controls that have little room for sloppiness.",
+    "emphasisDimensions": ["detail_orientation", "quantitative_comfort", "execution_discipline", "process_thinking", "analytical_reasoning"]
+  },
+  {
+    "id": "customer_success",
+    "name": "Customer Success",
+    "shortSummary": "Help customers realize value, sustain trust, and navigate adoption, risk, and growth after the sale.",
+    "realityCheck": "Customer Success is not passive account management. It mixes relationship building with problem solving, commercial judgment, and calm follow-through.",
+    "commonEntryTitles": ["Customer Success Associate", "Onboarding Specialist", "Account Manager"],
+    "difficulty": "Moderate",
+    "stretchTendency": "Usually reachable if empathy, communication, and cross-functional follow-through are real strengths.",
+    "detail": "Customer Success sits at the intersection of relationship management, product adoption, and value realization. Strong fits build trust, understand pain points, and coordinate internally to keep customers on track.",
+    "emphasisDimensions": ["customer_empathy", "communication", "cross_functional_collaboration", "execution_discipline", "initiative_ownership"]
+  },
+  {
+    "id": "business_systems_analyst",
+    "name": "Business Systems Analyst",
+    "shortSummary": "Translate business needs into better workflows, requirements, and system improvements.",
+    "realityCheck": "This is a translator role, not just documentation. Credibility comes from understanding both the business process and how the system behaves.",
+    "commonEntryTitles": ["Business Systems Analyst", "Business Analyst", "Systems Operations Analyst"],
+    "difficulty": "Moderate to Guarded",
+    "stretchTendency": "Strong fits need systems, process, analytical, and technical signals together, not in isolation.",
+    "detail": "Business Systems Analysts connect workflows, requirements, tooling, and operating realities. Strong fits enjoy diagnosing process pain, improving configuration, and making business systems easier to use.",
+    "emphasisDimensions": ["systems_thinking", "process_thinking", "analytical_reasoning", "technical_comfort", "communication"]
+  }
+]

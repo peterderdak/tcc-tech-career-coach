@@ -1,0 +1,202 @@
+[
+  {
+    "roleId": "sales",
+    "whatTheRoleDoes": "Sales roles turn product value into revenue by prospecting, running discovery, handling objections, and moving deals through a buying process.",
+    "commonEntryTitles": ["Sales Development Representative", "Business Development Representative", "Account Executive"],
+    "strengthsToEmphasize": [
+      "Persuasive communication and comfort initiating conversations",
+      "Ownership of outcomes instead of just task completion",
+      "Energy in relationship building and commercial momentum"
+    ],
+    "storiesToTell": [
+      "A time you influenced a decision or got buy-in for a recommendation",
+      "A situation where you handled resistance and still moved things forward",
+      "An example of owning a target, campaign, or growth-oriented outcome"
+    ],
+    "biggestGapsToClose": [
+      "Proof that you can handle direct customer or prospect conversations",
+      "Evidence that you enjoy performance pressure and consistent outreach",
+      "Clear examples of asking for commitment or next steps"
+    ],
+    "keyActions": [
+      "Practice discovery and objection-handling scripts with peers",
+      "Build quantified stories around wins, targets, or growth outcomes",
+      "Learn common SaaS sales metrics and funnel terminology"
+    ]
+  },
+  {
+    "roleId": "sales_engineering",
+    "whatTheRoleDoes": "Sales Engineers support the sales cycle by translating technical capabilities, running demos, answering system questions, and connecting product functionality to business value.",
+    "commonEntryTitles": ["Associate Solutions Engineer", "Sales Engineer", "Solutions Consultant"],
+    "strengthsToEmphasize": [
+      "Technical curiosity paired with customer-facing composure",
+      "Ability to explain systems clearly to mixed audiences",
+      "Comfort switching between product detail and business outcomes"
+    ],
+    "storiesToTell": [
+      "A time you learned a tool deeply enough to teach or demo it",
+      "A situation where you translated technical detail for a nontechnical audience",
+      "A moment where troubleshooting or systems thinking changed the outcome"
+    ],
+    "biggestGapsToClose": [
+      "Live-demo credibility and technical fluency",
+      "Evidence that you can answer technical questions under pressure",
+      "Examples of customer-facing technical problem solving"
+    ],
+    "keyActions": [
+      "Practice demoing a real product or sandbox workflow out loud",
+      "Build familiarity with APIs, integrations, and solution design basics",
+      "Create stories that tie technical detail to customer value"
+    ]
+  },
+  {
+    "roleId": "project_program_management",
+    "whatTheRoleDoes": "Project and Program Management roles coordinate timelines, dependencies, risks, and communication so cross-functional work actually lands. TPM-leaning work adds more technical dependency management.",
+    "commonEntryTitles": ["Project Coordinator", "Program Coordinator", "Operations Program Associate"],
+    "strengthsToEmphasize": [
+      "Building structure, timelines, and accountability across teams",
+      "Reliable follow-through and visible execution discipline",
+      "Calm coordination when many moving parts need alignment"
+    ],
+    "storiesToTell": [
+      "A time you kept a complex initiative on track across multiple people",
+      "A situation where you improved a process or operating cadence",
+      "An example of surfacing risk early and preventing downstream issues"
+    ],
+    "biggestGapsToClose": [
+      "Evidence that you can lead through influence instead of authority",
+      "Examples of risk management, prioritization, and stakeholder updates",
+      "For TPM-leaning paths, stronger systems and technical fluency"
+    ],
+    "keyActions": [
+      "Run a project tracker for a club, internship, or volunteer initiative",
+      "Practice concise written status updates with risks, owners, and next steps",
+      "For technical variants, learn how dependencies, tickets, and release workflows operate"
+    ]
+  },
+  {
+    "roleId": "product_management",
+    "whatTheRoleDoes": "Product Management blends customer insight, analytics, prioritization, and stakeholder alignment to shape what gets built and why.",
+    "commonEntryTitles": ["Associate Product Manager", "Product Analyst", "Growth Product Analyst"],
+    "strengthsToEmphasize": [
+      "Customer insight translated into clear tradeoff-aware recommendations",
+      "Analytical framing under ambiguity",
+      "Ownership of decisions and cross-functional influence"
+    ],
+    "storiesToTell": [
+      "A time you discovered a real user need and reframed the problem",
+      "A situation where you weighed competing priorities and made a recommendation",
+      "An example of aligning different stakeholders around a decision"
+    ],
+    "biggestGapsToClose": [
+      "Real evidence of customer discovery, prioritization, and tradeoff judgment",
+      "Proof that you can handle ambiguity without defaulting to vague ideas",
+      "Examples of owning an outcome instead of just contributing analysis"
+    ],
+    "keyActions": [
+      "Do structured user interviews and summarize patterns in a short brief",
+      "Create a sample prioritization memo with tradeoffs and assumptions",
+      "Build one project where you define the problem, coordinate execution, and reflect on the outcome"
+    ]
+  },
+  {
+    "roleId": "finance",
+    "whatTheRoleDoes": "Finance roles support planning and business decisions through forecasting, variance analysis, operating metrics, and scenario modeling.",
+    "commonEntryTitles": ["Financial Analyst", "FP&A Analyst", "Revenue Analyst"],
+    "strengthsToEmphasize": [
+      "Quantitative discipline and comfort with business metrics",
+      "Analytical reasoning that leads to actionable recommendations",
+      "Reliable communication of numbers and assumptions"
+    ],
+    "storiesToTell": [
+      "A time you built or improved an analysis that informed a decision",
+      "A situation where you found the real driver behind a metric shift",
+      "An example of balancing speed with accuracy in a numerical task"
+    ],
+    "biggestGapsToClose": [
+      "Hands-on proof with models, forecasts, or KPI analysis",
+      "Fluency with finance vocabulary and business cases",
+      "Confidence explaining assumptions behind the numbers"
+    ],
+    "keyActions": [
+      "Practice forecasting, scenario analysis, and budget-style modeling",
+      "Create a portfolio example that explains a business metric problem clearly",
+      "Learn SaaS metrics like ARR, churn, CAC, and gross margin"
+    ]
+  },
+  {
+    "roleId": "accounting",
+    "whatTheRoleDoes": "Accounting roles maintain financial accuracy through reconciliations, controls, close processes, and dependable records that the business can trust.",
+    "commonEntryTitles": ["Staff Accountant", "Accounting Analyst", "Revenue Accounting Associate"],
+    "strengthsToEmphasize": [
+      "Accuracy, reliability, and strong control-oriented habits",
+      "Consistency with recurring workflows and documentation",
+      "Quantitative confidence paired with disciplined follow-through"
+    ],
+    "storiesToTell": [
+      "A time your accuracy or review process prevented an error",
+      "A situation where you handled detailed work under deadline pressure",
+      "An example of improving a repetitive process without sacrificing control"
+    ],
+    "biggestGapsToClose": [
+      "Proof of comfort with precision-heavy numerical work",
+      "Examples of control thinking and disciplined documentation",
+      "Signals that you can handle recurring deadlines reliably"
+    ],
+    "keyActions": [
+      "Practice reconciliations, statement logic, and control-oriented reviews",
+      "Build examples that show precision and repeatability under deadlines",
+      "Learn how month-end close and revenue recognition basics work"
+    ]
+  },
+  {
+    "roleId": "customer_success",
+    "whatTheRoleDoes": "Customer Success helps customers adopt a product, navigate issues, and realize value over time so relationships stay healthy and renewals stay strong.",
+    "commonEntryTitles": ["Customer Success Associate", "Onboarding Specialist", "Account Manager"],
+    "strengthsToEmphasize": [
+      "Customer empathy without losing structure or accountability",
+      "Clear communication in moments of friction or uncertainty",
+      "Cross-functional follow-through that protects the customer relationship"
+    ],
+    "storiesToTell": [
+      "A time you calmed a frustrated person and moved toward a solution",
+      "A situation where you coordinated internally to deliver for an external stakeholder",
+      "An example of building trust over time, not just solving a single issue"
+    ],
+    "biggestGapsToClose": [
+      "Evidence that you can manage relationships while still driving action",
+      "Examples of customer-facing follow-through and adoption thinking",
+      "Proof that you can balance empathy with commercial or operational judgment"
+    ],
+    "keyActions": [
+      "Practice discovery and check-in conversations with a service mindset",
+      "Learn onboarding, adoption, churn, and renewal language used in SaaS",
+      "Build stories that combine trust-building with coordinated problem solving"
+    ]
+  },
+  {
+    "roleId": "business_systems_analyst",
+    "whatTheRoleDoes": "Business Systems Analysts improve workflows by gathering requirements, documenting needs, translating across teams, and making systems easier to use.",
+    "commonEntryTitles": ["Business Systems Analyst", "Business Analyst", "Systems Operations Analyst"],
+    "strengthsToEmphasize": [
+      "Systems thinking grounded in business process reality",
+      "Analytical problem solving with technical curiosity",
+      "Translation across operational, technical, and stakeholder contexts"
+    ],
+    "storiesToTell": [
+      "A time you diagnosed a workflow issue and clarified the real requirement",
+      "A situation where you improved how data or tools moved through a process",
+      "An example of bridging business language and system logic"
+    ],
+    "biggestGapsToClose": [
+      "Evidence of hands-on requirements or configuration work",
+      "Proof that you can connect system behavior to business outcomes",
+      "Stronger examples of process improvement with tooling involved"
+    ],
+    "keyActions": [
+      "Practice writing requirements, swimlanes, and before-after workflow notes",
+      "Learn basic system concepts like fields, objects, integrations, and permissions",
+      "Use a sandbox or low-code tool to document and improve a simple process"
+    ]
+  }
+]

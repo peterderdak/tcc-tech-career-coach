@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "q1",
+    "prompt": "In a student project, internship, or club, which responsibility do you naturally grab first?",
+    "promptShort": "Natural first responsibility",
+    "options": [
+      {
+        "id": "a",
+        "label": "Own the pitch",
+        "description": "I like making the case, winning support, and moving people toward a decision.",
+        "dimensionPoints": {
+          "communication": 3,
+          "persuasion": 4,
+          "presentation_comfort": 2,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["executive_presentations"]
+      },
+      {
+        "id": "b",
+        "label": "Map the plan",
+        "description": "I want to define the owners, timeline, and next steps so the work actually moves.",
+        "dimensionPoints": {
+          "process_thinking": 4,
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["structured_delivery", "stakeholder_coordination"]
+      },
+      {
+        "id": "c",
+        "label": "Interview the audience",
+        "description": "I want to understand what users or stakeholders actually need before we decide.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 3,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["customer_discovery", "client_facing"]
+      },
+      {
+        "id": "d",
+        "label": "Work through the numbers",
+        "description": "I’m happiest when I can analyze assumptions, metrics, and financial tradeoffs.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "quantitative_comfort": 4,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "e",
+        "label": "Figure out the system",
+        "description": "I want to understand how the tools and workflow fit together behind the scenes.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["workflow_optimization", "system_configuration"]
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "prompt": "When a decision is unclear, what feels most natural to you?",
+    "promptShort": "How you handle unclear decisions",
+    "options": [
+      {
+        "id": "a",
+        "label": "Test a direction",
+        "description": "I’d rather make a smart small move and learn from live feedback than wait for perfect certainty.",
+        "dimensionPoints": {
+          "ambiguity_tolerance": 4,
+          "initiative_ownership": 3,
+          "customer_empathy": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Align stakeholders",
+        "description": "I gather the right people and work toward a shared path forward.",
+        "dimensionPoints": {
+          "cross_functional_collaboration": 4,
+          "communication": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["cross_functional_facilitation"]
+      },
+      {
+        "id": "c",
+        "label": "Break it into drivers",
+        "description": "I want to separate the problem into data, assumptions, and scenarios first.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "quantitative_comfort": 3,
+          "systems_thinking": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Reduce execution risk",
+        "description": "I create a checklist or structure so fewer things can go wrong.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "detail_orientation": 3,
+          "process_thinking": 2
+        }
+      },
+      {
+        "id": "e",
+        "label": "Clarify system constraints",
+        "description": "I want someone to walk through how the tooling or architecture affects the decision.",
+        "dimensionPoints": {
+          "technical_comfort": 3,
+          "systems_thinking": 3,
+          "communication": 2
+        },
+        "evidenceTags": ["technical_translation"]
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "prompt": "Which compliment feels the most accurate?",
+    "promptShort": "Most accurate compliment",
+    "options": [
+      {
+        "id": "a",
+        "label": "You make things easy to follow",
+        "description": "People say I explain complicated ideas clearly and calmly.",
+        "dimensionPoints": {
+          "communication": 4,
+          "presentation_comfort": 3
+        }
+      },
+      {
+        "id": "b",
+        "label": "You keep things moving",
+        "description": "People trust me to coordinate the work and make sure it doesn’t stall.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 3,
+          "process_thinking": 3
+        },
+        "evidenceTags": ["structured_delivery"]
+      },
+      {
+        "id": "c",
+        "label": "You spot the pattern",
+        "description": "I often see the underlying logic before other people do.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "systems_thinking": 2,
+          "quantitative_comfort": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "You’re careful with the details",
+        "description": "People trust me when accuracy really matters.",
+        "dimensionPoints": {
+          "detail_orientation": 4,
+          "quantitative_comfort": 3,
+          "execution_discipline": 2
+        },
+        "evidenceTags": ["controls_accuracy"]
+      },
+      {
+        "id": "e",
+        "label": "People open up to you",
+        "description": "Customers or teammates tend to feel heard quickly when they talk to me.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 3,
+          "persuasion": 2
+        },
+        "evidenceTags": ["client_facing"]
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "prompt": "How do you feel about using new software or technical tools?",
+    "promptShort": "Comfort with new tools",
+    "options": [
+      {
+        "id": "a",
+        "label": "I learn by poking around",
+        "description": "I like exploring a tool directly, troubleshooting, and figuring it out hands-on.",
+        "dimensionPoints": {
+          "technical_comfort": 4,
+          "systems_thinking": 3,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["technical_debugging"]
+      },
+      {
+        "id": "b",
+        "label": "I like translating tools for others",
+        "description": "I enjoy learning enough to explain the system to less technical teammates.",
+        "dimensionPoints": {
+          "technical_comfort": 3,
+          "communication": 3,
+          "systems_thinking": 2,
+          "presentation_comfort": 2
+        },
+        "evidenceTags": ["technical_translation"]
+      },
+      {
+        "id": "c",
+        "label": "I want a clear process first",
+        "description": "I’m fine learning tools when the workflow is documented and predictable.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "execution_discipline": 2,
+          "technical_comfort": 2,
+          "detail_orientation": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "I care most about the business case",
+        "description": "I focus more on the decision and outcome than the tooling itself.",
+        "dimensionPoints": {
+          "analytical_reasoning": 3,
+          "customer_empathy": 2,
+          "persuasion": 1
+        }
+      },
+      {
+        "id": "e",
+        "label": "I’d rather stay in the people conversation",
+        "description": "I prefer customer or relationship work over technical exploration.",
+        "dimensionPoints": {
+          "communication": 2,
+          "customer_empathy": 3,
+          "persuasion": 2
+        },
+        "evidenceTags": ["client_facing"]
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "prompt": "A customer or stakeholder sounds frustrated. What do you do first?",
+    "promptShort": "First move with frustration",
+    "options": [
+      {
+        "id": "a",
+        "label": "Listen for the real need",
+        "description": "I slow down, ask questions, and make sure I understand the outcome they actually care about.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 3
+        },
+        "evidenceTags": ["client_facing"]
+      },
+      {
+        "id": "b",
+        "label": "Reframe the value",
+        "description": "I help them see the bigger picture and why a path still makes sense.",
+        "dimensionPoints": {
+          "persuasion": 4,
+          "communication": 3,
+          "presentation_comfort": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Trace the broken workflow",
+        "description": "I want to know whether a process or handoff problem is creating the pain.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "systems_thinking": 3,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["workflow_optimization"]
+      },
+      {
+        "id": "d",
+        "label": "Pull the facts first",
+        "description": "I want the details, metrics, or contract terms before I respond.",
+        "dimensionPoints": {
+          "detail_orientation": 3,
+          "quantitative_comfort": 3,
+          "analytical_reasoning": 2,
+          "execution_discipline": 1
+        }
+      },
+      {
+        "id": "e",
+        "label": "Turn it into a plan",
+        "description": "I define owners and next steps so there is a clear path out of the issue.",
+        "dimensionPoints": {
+          "execution_discipline": 3,
+          "cross_functional_collaboration": 3,
+          "communication": 2,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["stakeholder_coordination"]
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "prompt": "What kind of work feels energizing for hours at a time?",
+    "promptShort": "Most energizing work",
+    "options": [
+      {
+        "id": "a",
+        "label": "Negotiating and pitching",
+        "description": "I like persuasive conversations where momentum depends on how I show up.",
+        "dimensionPoints": {
+          "persuasion": 4,
+          "communication": 3,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["closes_with_confidence"]
+      },
+      {
+        "id": "b",
+        "label": "Untangling a messy problem",
+        "description": "I enjoy turning a vague issue into something structured and solvable.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "ambiguity_tolerance": 3,
+          "systems_thinking": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Driving the plan",
+        "description": "I like building structure and then making sure the plan really happens.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["builds_process"]
+      },
+      {
+        "id": "d",
+        "label": "Working through spreadsheets",
+        "description": "Forecasts, analyses, and reconciliations hold my attention well.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "detail_orientation": 3,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "e",
+        "label": "Improving the tool flow",
+        "description": "I like making systems and information move more cleanly.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["system_configuration"]
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "prompt": "When you present to a group, which statement is closest to you?",
+    "promptShort": "Presenting style",
+    "options": [
+      {
+        "id": "a",
+        "label": "I’m comfortable leading the room",
+        "description": "I can speak live, adapt, and stay composed when people push back.",
+        "dimensionPoints": {
+          "presentation_comfort": 4,
+          "communication": 3,
+          "persuasion": 2
+        },
+        "evidenceTags": ["executive_presentations"]
+      },
+      {
+        "id": "b",
+        "label": "I’m strongest with a fact-based story",
+        "description": "I present best when I can anchor the story in evidence and logic.",
+        "dimensionPoints": {
+          "presentation_comfort": 3,
+          "analytical_reasoning": 2,
+          "communication": 2,
+          "quantitative_comfort": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "I prefer facilitating a working session",
+        "description": "I’m good at guiding a group toward alignment more than giving a polished talk.",
+        "dimensionPoints": {
+          "cross_functional_collaboration": 3,
+          "process_thinking": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["cross_functional_facilitation"]
+      },
+      {
+        "id": "d",
+        "label": "I can demo a tool well",
+        "description": "If I understand the workflow, I’m comfortable showing how the system works live.",
+        "dimensionPoints": {
+          "presentation_comfort": 3,
+          "technical_comfort": 3,
+          "systems_thinking": 2
+        },
+        "evidenceTags": ["technical_translation"]
+      },
+      {
+        "id": "e",
+        "label": "I prefer smaller conversations",
+        "description": "I’m better one-on-one or in small groups than in formal presentation mode.",
+        "dimensionPoints": {
+          "customer_empathy": 2,
+          "communication": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "prompt": "Which output are you most proud to produce?",
+    "promptShort": "Proudest output",
+    "options": [
+      {
+        "id": "a",
+        "label": "A cleaner process",
+        "description": "I’m proud when I make a workflow more reliable for a team.",
+        "dimensionPoints": {
+          "process_thinking": 4,
+          "execution_discipline": 3,
+          "systems_thinking": 2
+        },
+        "evidenceTags": ["builds_process", "workflow_optimization"]
+      },
+      {
+        "id": "b",
+        "label": "A persuasive narrative",
+        "description": "I like creating the message that wins buy-in and gets people moving.",
+        "dimensionPoints": {
+          "persuasion": 4,
+          "communication": 3,
+          "presentation_comfort": 2
+        },
+        "evidenceTags": ["executive_presentations"]
+      },
+      {
+        "id": "c",
+        "label": "An evidence-backed recommendation",
+        "description": "I want my work to show sound reasoning and a clear point of view.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "quantitative_comfort": 3,
+          "communication": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "An accurate model or report",
+        "description": "I’m proud when the work is precise, reliable, and tight on the details.",
+        "dimensionPoints": {
+          "detail_orientation": 4,
+          "quantitative_comfort": 3,
+          "execution_discipline": 2
+        },
+        "evidenceTags": ["controls_accuracy"]
+      },
+      {
+        "id": "e",
+        "label": "A saved relationship",
+        "description": "I’m proud when I help a customer feel heard and stay confident in the path forward.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 3,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["renewal_expansion", "client_facing"]
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "prompt": "In cross-functional work, where do you add the most value?",
+    "promptShort": "Value in cross-functional work",
+    "options": [
+      {
+        "id": "a",
+        "label": "Aligning people",
+        "description": "I keep people with different priorities moving in the same direction.",
+        "dimensionPoints": {
+          "cross_functional_collaboration": 4,
+          "execution_discipline": 3,
+          "communication": 2
+        },
+        "evidenceTags": ["stakeholder_coordination"]
+      },
+      {
+        "id": "b",
+        "label": "Sharpening the problem",
+        "description": "I turn a vague goal into a clearer problem statement and decision path.",
+        "dimensionPoints": {
+          "ambiguity_tolerance": 3,
+          "analytical_reasoning": 3,
+          "communication": 2,
+          "initiative_ownership": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Representing the user",
+        "description": "I make sure the team stays grounded in real customer needs.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "cross_functional_collaboration": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      },
+      {
+        "id": "d",
+        "label": "Clarifying technical dependencies",
+        "description": "I help make the plan realistic by surfacing what the system can or cannot do.",
+        "dimensionPoints": {
+          "systems_thinking": 3,
+          "technical_comfort": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["technical_translation"]
+      },
+      {
+        "id": "e",
+        "label": "Pressure-testing assumptions",
+        "description": "I add value by checking whether the numbers and logic really hold up.",
+        "dimensionPoints": {
+          "analytical_reasoning": 3,
+          "quantitative_comfort": 3,
+          "detail_orientation": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "prompt": "What kind of pressure is easiest for you to handle?",
+    "promptShort": "Pressure you handle best",
+    "options": [
+      {
+        "id": "a",
+        "label": "Live objections",
+        "description": "I can stay composed in a hard commercial or persuasive conversation.",
+        "dimensionPoints": {
+          "persuasion": 4,
+          "communication": 2,
+          "presentation_comfort": 2
+        },
+        "evidenceTags": ["closes_with_confidence"]
+      },
+      {
+        "id": "b",
+        "label": "A shifting timeline",
+        "description": "I’m good at keeping moving parts organized when deadlines change.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "process_thinking": 3,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["structured_delivery"]
+      },
+      {
+        "id": "c",
+        "label": "Incomplete information",
+        "description": "I’m comfortable making progress even when the answer is not obvious yet.",
+        "dimensionPoints": {
+          "ambiguity_tolerance": 4,
+          "analytical_reasoning": 2,
+          "initiative_ownership": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Technical messiness",
+        "description": "I can troubleshoot and stay calm when a system workflow gets messy.",
+        "dimensionPoints": {
+          "technical_comfort": 3,
+          "systems_thinking": 4,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["technical_debugging"]
+      },
+      {
+        "id": "e",
+        "label": "High-accuracy work",
+        "description": "I’m steady when mistakes are costly and precision matters.",
+        "dimensionPoints": {
+          "detail_orientation": 4,
+          "execution_discipline": 3,
+          "quantitative_comfort": 2
+        },
+        "evidenceTags": ["controls_accuracy"]
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "prompt": "If a team keeps repeating the same issue, what is your instinct?",
+    "promptShort": "Instinct with repeated issues",
+    "options": [
+      {
+        "id": "a",
+        "label": "Create a repeatable process",
+        "description": "I want to fix ownership and make the workflow easier to repeat correctly.",
+        "dimensionPoints": {
+          "process_thinking": 4,
+          "execution_discipline": 3,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["builds_process"]
+      },
+      {
+        "id": "b",
+        "label": "Find the system issue",
+        "description": "I look for the data or tooling problem underneath the repeated symptom.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "analytical_reasoning": 3,
+          "technical_comfort": 2
+        },
+        "evidenceTags": ["workflow_optimization"]
+      },
+      {
+        "id": "c",
+        "label": "Coach the conversations",
+        "description": "I focus on helping people communicate better and handle the situation differently.",
+        "dimensionPoints": {
+          "communication": 3,
+          "persuasion": 2,
+          "customer_empathy": 2,
+          "cross_functional_collaboration": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Check the financial impact",
+        "description": "I want to know how much the issue matters before changing the process.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "e",
+        "label": "Talk to users first",
+        "description": "I want customer or frontline input before deciding what to fix.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 2,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "prompt": "How do you usually approach deadlines?",
+    "promptShort": "Approach to deadlines",
+    "options": [
+      {
+        "id": "a",
+        "label": "Back-plan and track",
+        "description": "I set milestones, monitor progress, and keep follow-through visible.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "process_thinking": 3,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["structured_delivery"]
+      },
+      {
+        "id": "b",
+        "label": "Keep the team energized",
+        "description": "I help people stay aligned and motivated so the work lands well.",
+        "dimensionPoints": {
+          "communication": 3,
+          "cross_functional_collaboration": 3,
+          "persuasion": 2,
+          "initiative_ownership": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Focus on the vital variables",
+        "description": "I prioritize the few factors that matter most to the result.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "ambiguity_tolerance": 2,
+          "execution_discipline": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Double-check the details",
+        "description": "I would rather be precise than fast if the work has real consequences.",
+        "dimensionPoints": {
+          "detail_orientation": 4,
+          "execution_discipline": 2,
+          "quantitative_comfort": 2
+        },
+        "evidenceTags": ["controls_accuracy"]
+      },
+      {
+        "id": "e",
+        "label": "Anticipate technical blockers",
+        "description": "I think ahead about where tooling or system issues might derail the plan.",
+        "dimensionPoints": {
+          "technical_comfort": 3,
+          "systems_thinking": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["technical_debugging"]
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "prompt": "Which internship or entry-level assignment sounds best?",
+    "promptShort": "Preferred early assignment",
+    "options": [
+      {
+        "id": "a",
+        "label": "Shadow customer calls",
+        "description": "I’d enjoy helping move deals or customer conversations forward.",
+        "dimensionPoints": {
+          "customer_empathy": 3,
+          "communication": 3,
+          "persuasion": 3
+        },
+        "evidenceTags": ["client_facing"]
+      },
+      {
+        "id": "b",
+        "label": "Help launch a project",
+        "description": "I’d like coordinating workstreams and keeping execution aligned.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 3
+        },
+        "evidenceTags": ["stakeholder_coordination", "structured_delivery"]
+      },
+      {
+        "id": "c",
+        "label": "Analyze performance data",
+        "description": "I’d be happy working through budget, pipeline, or KPI data.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "d",
+        "label": "Improve a system workflow",
+        "description": "I’d like documenting requirements and making a tool work better.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "process_thinking": 3,
+          "technical_comfort": 3
+        },
+        "evidenceTags": ["system_configuration", "workflow_optimization"]
+      },
+      {
+        "id": "e",
+        "label": "Synthesize user feedback",
+        "description": "I’d enjoy turning user feedback into a recommendation about what to improve next.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "analytical_reasoning": 3,
+          "ambiguity_tolerance": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["customer_discovery", "roadmap_tradeoffs"]
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "prompt": "What kind of ambiguity bothers you the least?",
+    "promptShort": "Most tolerable ambiguity",
+    "options": [
+      {
+        "id": "a",
+        "label": "No final answer yet",
+        "description": "I’m okay moving before the full answer is clear if we can test and learn.",
+        "dimensionPoints": {
+          "ambiguity_tolerance": 4,
+          "initiative_ownership": 3,
+          "analytical_reasoning": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Missing some detail",
+        "description": "I’m fine without every detail if the process and expectations are clear.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "execution_discipline": 3,
+          "cross_functional_collaboration": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Partial technical context",
+        "description": "I can ask good questions even if I do not know every system detail yet.",
+        "dimensionPoints": {
+          "technical_comfort": 3,
+          "communication": 2,
+          "systems_thinking": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Uncertain customer reaction",
+        "description": "I’m comfortable talking with people even if I do not know how they will respond.",
+        "dimensionPoints": {
+          "customer_empathy": 3,
+          "persuasion": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["client_facing"]
+      },
+      {
+        "id": "e",
+        "label": "Imperfect forecasts",
+        "description": "I can still reason well when I have to model scenarios instead of predict exactly.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "prompt": "Which statement sounds most like you?",
+    "promptShort": "Statement that fits best",
+    "options": [
+      {
+        "id": "a",
+        "label": "I want to own outcomes",
+        "description": "I’m energized by having a real target or responsibility, not just a task list.",
+        "dimensionPoints": {
+          "initiative_ownership": 4,
+          "persuasion": 2,
+          "execution_discipline": 2
+        },
+        "evidenceTags": ["owns_outcomes"]
+      },
+      {
+        "id": "b",
+        "label": "I keep work dependable",
+        "description": "I like being the person others trust to stay organized and reliable.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "process_thinking": 3,
+          "detail_orientation": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "I translate across teams",
+        "description": "I enjoy connecting groups that think differently and helping them work together.",
+        "dimensionPoints": {
+          "communication": 3,
+          "cross_functional_collaboration": 3,
+          "systems_thinking": 2
+        },
+        "evidenceTags": ["cross_functional_facilitation"]
+      },
+      {
+        "id": "d",
+        "label": "I solve workflow logic",
+        "description": "I like tracing how tools and process rules create friction or clarity.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["system_configuration"]
+      },
+      {
+        "id": "e",
+        "label": "I read what users really need",
+        "description": "I often notice what customers are actually asking for underneath the surface.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "analytical_reasoning": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "prompt": "How do you prefer to influence decisions?",
+    "promptShort": "Preferred influence style",
+    "options": [
+      {
+        "id": "a",
+        "label": "Strong narrative",
+        "description": "I like making a direct recommendation and explaining why it should win.",
+        "dimensionPoints": {
+          "persuasion": 4,
+          "communication": 3,
+          "presentation_comfort": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "User evidence",
+        "description": "I want to ground the decision in user needs and what we have learned.",
+        "dimensionPoints": {
+          "customer_empathy": 3,
+          "analytical_reasoning": 3,
+          "communication": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      },
+      {
+        "id": "c",
+        "label": "Models and scenarios",
+        "description": "I’m most persuasive when I can show the numerical tradeoffs clearly.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "presentation_comfort": 1
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "d",
+        "label": "A practical plan",
+        "description": "I like defining owners, next steps, and how the work will actually happen.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["stakeholder_coordination"]
+      },
+      {
+        "id": "e",
+        "label": "System feasibility",
+        "description": "I add value by clarifying what is technically realistic and why.",
+        "dimensionPoints": {
+          "systems_thinking": 3,
+          "technical_comfort": 3,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["technical_translation"]
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "prompt": "What do you notice first when something underperforms?",
+    "promptShort": "First thing you notice",
+    "options": [
+      {
+        "id": "a",
+        "label": "The message isn’t landing",
+        "description": "I think the story, pitch, or framing probably is not connecting.",
+        "dimensionPoints": {
+          "communication": 3,
+          "persuasion": 3,
+          "analytical_reasoning": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "The user experience is off",
+        "description": "I focus on whether the customer expectation or experience is mismatched.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "analytical_reasoning": 2,
+          "ambiguity_tolerance": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      },
+      {
+        "id": "c",
+        "label": "The workflow is weak",
+        "description": "I look for handoff problems, ownership gaps, or process friction.",
+        "dimensionPoints": {
+          "process_thinking": 4,
+          "systems_thinking": 3,
+          "execution_discipline": 2
+        },
+        "evidenceTags": ["workflow_optimization", "builds_process"]
+      },
+      {
+        "id": "d",
+        "label": "The numbers tell a different story",
+        "description": "I want to know which metric or driver is actually causing the issue.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "quantitative_comfort": 3,
+          "detail_orientation": 2
+        }
+      },
+      {
+        "id": "e",
+        "label": "The technical setup is causing friction",
+        "description": "I suspect the system or tool behavior is creating the performance problem.",
+        "dimensionPoints": {
+          "technical_comfort": 3,
+          "systems_thinking": 4,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["technical_debugging"]
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "prompt": "Which kind of follow-up feels most natural?",
+    "promptShort": "Most natural follow-up",
+    "options": [
+      {
+        "id": "a",
+        "label": "Strengthen the relationship",
+        "description": "I naturally check back in with the client or stakeholder to keep trust strong.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 3,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["renewal_expansion", "client_facing"]
+      },
+      {
+        "id": "b",
+        "label": "Confirm owners and risks",
+        "description": "I want the task list, risks, and accountability to stay visible.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "process_thinking": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["structured_delivery"]
+      },
+      {
+        "id": "c",
+        "label": "Reinforce alignment",
+        "description": "I summarize the decision and keep people committed to the path.",
+        "dimensionPoints": {
+          "communication": 3,
+          "persuasion": 3,
+          "cross_functional_collaboration": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Document the requirements",
+        "description": "I like making the process, configuration, or requirement explicit and usable.",
+        "dimensionPoints": {
+          "detail_orientation": 3,
+          "systems_thinking": 3,
+          "technical_comfort": 2,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["system_configuration"]
+      },
+      {
+        "id": "e",
+        "label": "Update the model",
+        "description": "I want the forecast or dashboard to reflect the new reality accurately.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "prompt": "What kind of learning curve feels rewarding?",
+    "promptShort": "Most rewarding learning curve",
+    "options": [
+      {
+        "id": "a",
+        "label": "How buyers think",
+        "description": "I enjoy learning how to earn trust and move a real buying conversation forward.",
+        "dimensionPoints": {
+          "persuasion": 3,
+          "customer_empathy": 3,
+          "communication": 2
+        },
+        "evidenceTags": ["client_facing", "closes_with_confidence"]
+      },
+      {
+        "id": "b",
+        "label": "How teams operate",
+        "description": "I like understanding how work really moves so I can improve the process.",
+        "dimensionPoints": {
+          "process_thinking": 4,
+          "systems_thinking": 3,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["builds_process"]
+      },
+      {
+        "id": "c",
+        "label": "How products work and get prioritized",
+        "description": "I want to understand user needs, tradeoffs, and how improvement decisions get made.",
+        "dimensionPoints": {
+          "ambiguity_tolerance": 3,
+          "customer_empathy": 2,
+          "analytical_reasoning": 3,
+          "technical_comfort": 2
+        },
+        "evidenceTags": ["roadmap_tradeoffs"]
+      },
+      {
+        "id": "d",
+        "label": "How finance logic works",
+        "description": "I enjoy learning the structure of statements, metrics, and business performance drivers.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "e",
+        "label": "How a platform is configured",
+        "description": "I like learning the rules, fields, and behind-the-scenes setup of a system.",
+        "dimensionPoints": {
+          "technical_comfort": 4,
+          "systems_thinking": 4,
+          "detail_orientation": 1
+        },
+        "evidenceTags": ["system_configuration"]
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "prompt": "Which responsibility would you trust yourself with soonest?",
+    "promptShort": "Responsibility you’d take soonest",
+    "options": [
+      {
+        "id": "a",
+        "label": "Represent value externally",
+        "description": "I’d feel comfortable being in the customer or prospect conversation early.",
+        "dimensionPoints": {
+          "communication": 3,
+          "persuasion": 3,
+          "customer_empathy": 2
+        },
+        "evidenceTags": ["client_facing"]
+      },
+      {
+        "id": "b",
+        "label": "Run the project tracker",
+        "description": "I’d be ready to coordinate updates, dependencies, and action items across teams.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 3,
+          "process_thinking": 3
+        },
+        "evidenceTags": ["stakeholder_coordination", "structured_delivery"]
+      },
+      {
+        "id": "c",
+        "label": "Make a recommendation from messy data",
+        "description": "I’d trust myself to analyze the signal and turn it into a recommendation.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "quantitative_comfort": 3,
+          "communication": 1
+        }
+      },
+      {
+        "id": "d",
+        "label": "Own a high-accuracy record",
+        "description": "I’d feel good being trusted with a detailed, precision-heavy process.",
+        "dimensionPoints": {
+          "detail_orientation": 4,
+          "quantitative_comfort": 3,
+          "execution_discipline": 2
+        },
+        "evidenceTags": ["controls_accuracy"]
+      },
+      {
+        "id": "e",
+        "label": "Improve a business system",
+        "description": "I’d be ready to document requirements and tighten a system workflow.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "process_thinking": 3,
+          "technical_comfort": 3
+        },
+        "evidenceTags": ["workflow_optimization", "system_configuration"]
+      }
+    ]
+  },
+  {
+    "id": "q21",
+    "prompt": "When you hear competing stakeholder opinions, what do you do?",
+    "promptShort": "Responding to stakeholder conflict",
+    "options": [
+      {
+        "id": "a",
+        "label": "Look for the customer problem",
+        "description": "I want to know what user need sits underneath the disagreement.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "cross_functional_collaboration": 2,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      },
+      {
+        "id": "b",
+        "label": "Push toward a decision framework",
+        "description": "I like giving the group a way to make a practical call despite uncertainty.",
+        "dimensionPoints": {
+          "ambiguity_tolerance": 3,
+          "analytical_reasoning": 3,
+          "initiative_ownership": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["roadmap_tradeoffs"]
+      },
+      {
+        "id": "c",
+        "label": "Facilitate alignment",
+        "description": "I guide the conversation so people leave with shared owners and next steps.",
+        "dimensionPoints": {
+          "cross_functional_collaboration": 4,
+          "communication": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["cross_functional_facilitation", "stakeholder_coordination"]
+      },
+      {
+        "id": "d",
+        "label": "Check the financial soundness",
+        "description": "I want to see which option makes more sense in the numbers.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "analytical_reasoning": 3,
+          "detail_orientation": 2
+        },
+        "evidenceTags": ["financial_modeling"]
+      },
+      {
+        "id": "e",
+        "label": "Map the technical dependencies",
+        "description": "I focus on what the system constraints imply before anyone over-commits.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["technical_translation"]
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "prompt": "What would make you feel most credible early in a tech company?",
+    "promptShort": "Earliest source of credibility",
+    "options": [
+      {
+        "id": "a",
+        "label": "Being trusted by customers",
+        "description": "I’d feel strongest if people remembered me as someone customers trust.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "communication": 3,
+          "persuasion": 2
+        },
+        "evidenceTags": ["client_facing"]
+      },
+      {
+        "id": "b",
+        "label": "Reliably shipping the plan",
+        "description": "I’d feel credible if I consistently got complex work over the finish line.",
+        "dimensionPoints": {
+          "execution_discipline": 4,
+          "process_thinking": 3,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["structured_delivery", "owns_outcomes"]
+      },
+      {
+        "id": "c",
+        "label": "Finding the best answer in the data",
+        "description": "I’d feel credible by bringing clarity and insight to messy information.",
+        "dimensionPoints": {
+          "analytical_reasoning": 4,
+          "quantitative_comfort": 3,
+          "detail_orientation": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Understanding how the system works",
+        "description": "I’d feel credible if I could diagnose technical or workflow issues reliably.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["technical_debugging"]
+      },
+      {
+        "id": "e",
+        "label": "Connecting user needs and priorities",
+        "description": "I’d feel credible if I could tie real user insight to better decisions.",
+        "dimensionPoints": {
+          "customer_empathy": 3,
+          "ambiguity_tolerance": 3,
+          "cross_functional_collaboration": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["roadmap_tradeoffs", "cross_functional_facilitation"]
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "prompt": "Which sentence feels most exciting to you?",
+    "promptShort": "Most exciting sentence",
+    "options": [
+      {
+        "id": "a",
+        "label": "Influence revenue directly",
+        "description": "I want a role where my work has a visible connection to growth and momentum.",
+        "dimensionPoints": {
+          "persuasion": 3,
+          "initiative_ownership": 3,
+          "communication": 2
+        },
+        "evidenceTags": ["closes_with_confidence", "owns_outcomes"]
+      },
+      {
+        "id": "b",
+        "label": "Keep complex work on track",
+        "description": "I want to be the person who makes coordinated execution actually happen.",
+        "dimensionPoints": {
+          "process_thinking": 3,
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Shape what gets improved next",
+        "description": "I want a role where user needs and prioritization decisions really matter.",
+        "dimensionPoints": {
+          "customer_empathy": 3,
+          "analytical_reasoning": 3,
+          "ambiguity_tolerance": 3,
+          "initiative_ownership": 2
+        },
+        "evidenceTags": ["roadmap_tradeoffs"]
+      },
+      {
+        "id": "d",
+        "label": "Be trusted with numbers and controls",
+        "description": "I want work where precision and accountability are central.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "detail_orientation": 4,
+          "execution_discipline": 1
+        },
+        "evidenceTags": ["controls_accuracy"]
+      },
+      {
+        "id": "e",
+        "label": "Improve systems people rely on",
+        "description": "I want to make tools and workflows work better for the business.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "process_thinking": 2
+        },
+        "evidenceTags": ["workflow_optimization"]
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "prompt": "Which project outcome would make you proudest?",
+    "promptShort": "Proudest outcome",
+    "options": [
+      {
+        "id": "a",
+        "label": "The message won support",
+        "description": "I’d feel proud if the team moved faster because I framed the case well.",
+        "dimensionPoints": {
+          "communication": 4,
+          "persuasion": 3,
+          "presentation_comfort": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Users felt genuinely understood",
+        "description": "I’d be proud if the solution matched what people really needed.",
+        "dimensionPoints": {
+          "customer_empathy": 4,
+          "analytical_reasoning": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["customer_discovery"]
+      },
+      {
+        "id": "c",
+        "label": "The project landed cleanly",
+        "description": "I’d feel proud if structure and follow-through made the work land well.",
+        "dimensionPoints": {
+          "process_thinking": 4,
+          "execution_discipline": 4,
+          "cross_functional_collaboration": 2
+        },
+        "evidenceTags": ["builds_process", "structured_delivery"]
+      },
+      {
+        "id": "d",
+        "label": "The numbers were rock-solid",
+        "description": "I’d be proud if the model, report, or control work was highly reliable.",
+        "dimensionPoints": {
+          "quantitative_comfort": 4,
+          "detail_orientation": 4,
+          "analytical_reasoning": 2
+        },
+        "evidenceTags": ["financial_modeling", "controls_accuracy"]
+      },
+      {
+        "id": "e",
+        "label": "The workflow became simpler",
+        "description": "I’d feel proud if I understood the system well enough to improve how work moved.",
+        "dimensionPoints": {
+          "systems_thinking": 4,
+          "technical_comfort": 3,
+          "process_thinking": 2,
+          "communication": 2
+        },
+        "evidenceTags": ["system_configuration", "technical_translation"]
+      }
+    ]
+  }
+]

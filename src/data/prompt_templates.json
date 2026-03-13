@@ -1,0 +1,32 @@
+[
+  {
+    "id": "resume_rewrite",
+    "title": "Resume rewrite",
+    "description": "Rewrite experience bullets for the selected role while staying honest about current evidence.",
+    "template": "You are helping me reposition my resume for an entry-level or early-career {{displayRoleName}} role in tech.\\n\\nUse this context:\\n- Best-fit role: {{displayRoleName}}\\n- Why this role fits me: {{whyThisFits}}\\n- Strengths to emphasize: {{strengths}}\\n- Missing signals to strengthen: {{missingSignals}}\\n- Credibility gaps to address carefully: {{credibilityGaps}}\\n- What this role actually does: {{roleSummary}}\\n- Common entry titles: {{commonEntryTitles}}\\n- Stories worth highlighting: {{storiesToTell}}\\n- Near-term actions I can mention honestly: {{keyActions}}\\n\\nTask:\\n1. Rewrite my resume summary for this role in a grounded, credible tone.\\n2. Rewrite 6 resume bullets that sound results-oriented without exaggerating experience.\\n3. Suggest 5 keywords to weave in naturally.\\n4. Flag anything that would sound inflated for an early-career candidate."
+  },
+  {
+    "id": "linkedin_summary_rewrite",
+    "title": "LinkedIn summary rewrite",
+    "description": "Create a concise profile summary for the chosen target role and fit profile.",
+    "template": "Write a LinkedIn About section for someone targeting {{displayRoleName}} roles in tech.\\n\\nUse this context:\\n- Role fit summary: {{whyThisFits}}\\n- Strengths to emphasize: {{strengths}}\\n- Role reality check: {{roleRealityCheck}}\\n- Biggest gaps to close: {{gapsToClose}}\\n- What the role actually does: {{roleSummary}}\\n\\nRequirements:\\n- Keep it credible for a recent graduate or early-career candidate.\\n- Sound confident but not inflated.\\n- Mention strengths and learning direction in a practical way.\\n- Provide 2 versions: one concise and one slightly more polished."
+  },
+  {
+    "id": "star_story_generation",
+    "title": "STAR story generation",
+    "description": "Turn strengths and gaps into interview stories and practice prompts.",
+    "template": "Help me create STAR stories for {{displayRoleName}} interviews.\\n\\nContext:\\n- Why this role fits: {{whyThisFits}}\\n- Strongest signals: {{strengths}}\\n- Missing signals: {{missingSignals}}\\n- Credibility gaps: {{credibilityGaps}}\\n- Stories interviewers may care about: {{storiesToTell}}\\n\\nTask:\\n1. Suggest 5 STAR story themes I should prepare.\\n2. For each theme, give me the Situation, Task, Action, and Result prompts I should answer.\\n3. Note which story theme best covers ownership, collaboration, analysis, and customer understanding."
+  },
+  {
+    "id": "interview_prep",
+    "title": "Interview prep",
+    "description": "Generate targeted interview questions, follow-ups, and coaching notes for the selected role.",
+    "template": "Act as an interviewer for an early-career candidate targeting {{displayRoleName}} roles in tech.\\n\\nUse this context:\\n- Why the role fits: {{whyThisFits}}\\n- Top strengths: {{strengths}}\\n- Missing signals: {{missingSignals}}\\n- Credibility gaps: {{credibilityGaps}}\\n- What the role actually does: {{roleSummary}}\\n- Key actions the candidate is taking: {{keyActions}}\\n\\nGive me:\\n1. 10 realistic interview questions for this role.\\n2. What a strong answer should include for each question.\\n3. 5 follow-up questions that test credibility without being unfair.\\n4. A short coaching note on how to talk about gaps honestly."
+  },
+  {
+    "id": "skill_development_roadmap",
+    "title": "Skill development roadmap",
+    "description": "Build a focused learning plan to close the top signals missing for the role.",
+    "template": "Build a 30-60-90 day development roadmap for someone aiming at {{displayRoleName}} roles in tech.\\n\\nUse this context:\\n- Current strengths: {{strengths}}\\n- Missing signals: {{missingSignals}}\\n- Credibility gaps: {{credibilityGaps}}\\n- Biggest gaps to close for this role: {{gapsToClose}}\\n- Suggested key actions: {{keyActions}}\\n\\nRequirements:\\n- Keep the plan practical for an early-career candidate.\\n- Include projects, practice routines, and artifacts they can show recruiters.\\n- Separate quick wins from deeper credibility-building work.\\n- End with a short checklist for knowing when they are more interview-ready."
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "roleId": "sales",
+    "weights": {
+      "communication": 5,
+      "persuasion": 5,
+      "analytical_reasoning": 1,
+      "quantitative_comfort": 0,
+      "detail_orientation": 0,
+      "customer_empathy": 4,
+      "process_thinking": 0,
+      "execution_discipline": 2,
+      "cross_functional_collaboration": 2,
+      "ambiguity_tolerance": 2,
+      "technical_comfort": 0,
+      "systems_thinking": 0,
+      "initiative_ownership": 5,
+      "presentation_comfort": 4
+    },
+    "targetThresholds": {
+      "communication": 56,
+      "persuasion": 52,
+      "initiative_ownership": 50,
+      "presentation_comfort": 44,
+      "customer_empathy": 45,
+      "cross_functional_collaboration": 40
+    },
+    "criticalThresholds": {
+      "communication": 56,
+      "persuasion": 52,
+      "initiative_ownership": 50
+    },
+    "requiredEvidence": ["client_facing", "closes_with_confidence"],
+    "recommendedMinScore": 46,
+    "stretchMinScore": 38
+  },
+  {
+    "roleId": "sales_engineering",
+    "weights": {
+      "communication": 4,
+      "persuasion": 1,
+      "analytical_reasoning": 3,
+      "quantitative_comfort": 0,
+      "detail_orientation": 0,
+      "customer_empathy": 3,
+      "process_thinking": 0,
+      "execution_discipline": 0,
+      "cross_functional_collaboration": 2,
+      "ambiguity_tolerance": 1,
+      "technical_comfort": 5,
+      "systems_thinking": 5,
+      "initiative_ownership": 0,
+      "presentation_comfort": 4
+    },
+    "targetThresholds": {
+      "technical_comfort": 55,
+      "systems_thinking": 52,
+      "communication": 55,
+      "presentation_comfort": 48,
+      "customer_empathy": 44,
+      "analytical_reasoning": 44
+    },
+    "criticalThresholds": {
+      "technical_comfort": 55,
+      "systems_thinking": 52,
+      "communication": 55,
+      "presentation_comfort": 48
+    },
+    "requiredEvidence": ["technical_translation", "technical_debugging"],
+    "recommendedMinScore": 50,
+    "stretchMinScore": 42,
+    "guardedRole": true
+  },
+  {
+    "roleId": "project_program_management",
+    "weights": {
+      "communication": 3,
+      "persuasion": 0,
+      "analytical_reasoning": 2,
+      "quantitative_comfort": 0,
+      "detail_orientation": 2,
+      "customer_empathy": 0,
+      "process_thinking": 5,
+      "execution_discipline": 5,
+      "cross_functional_collaboration": 4,
+      "ambiguity_tolerance": 2,
+      "technical_comfort": 2,
+      "systems_thinking": 2,
+      "initiative_ownership": 3,
+      "presentation_comfort": 0
+    },
+    "targetThresholds": {
+      "process_thinking": 52,
+      "execution_discipline": 54,
+      "cross_functional_collaboration": 48,
+      "initiative_ownership": 44,
+      "communication": 44
+    },
+    "criticalThresholds": {
+      "process_thinking": 52,
+      "execution_discipline": 54,
+      "cross_functional_collaboration": 48
+    },
+    "requiredEvidence": ["builds_process", "structured_delivery", "stakeholder_coordination"],
+    "recommendedMinScore": 46,
+    "stretchMinScore": 38,
+    "variantLabel": "Project / Program Management (TPM-leaning)",
+    "variantThresholds": {
+      "technical_comfort": 46,
+      "systems_thinking": 50,
+      "process_thinking": 52,
+      "execution_discipline": 54
+    },
+    "variantEvidence": ["technical_translation"]
+  },
+  {
+    "roleId": "product_management",
+    "weights": {
+      "communication": 4,
+      "persuasion": 1,
+      "analytical_reasoning": 5,
+      "quantitative_comfort": 1,
+      "detail_orientation": 0,
+      "customer_empathy": 5,
+      "process_thinking": 1,
+      "execution_discipline": 0,
+      "cross_functional_collaboration": 4,
+      "ambiguity_tolerance": 4,
+      "technical_comfort": 1,
+      "systems_thinking": 2,
+      "initiative_ownership": 4,
+      "presentation_comfort": 2
+    },
+    "targetThresholds": {
+      "customer_empathy": 52,
+      "analytical_reasoning": 54,
+      "ambiguity_tolerance": 46,
+      "cross_functional_collaboration": 48,
+      "initiative_ownership": 44,
+      "communication": 46
+    },
+    "criticalThresholds": {
+      "customer_empathy": 52,
+      "analytical_reasoning": 54,
+      "ambiguity_tolerance": 46,
+      "cross_functional_collaboration": 48,
+      "initiative_ownership": 44,
+      "communication": 46
+    },
+    "requiredEvidence": ["customer_discovery", "roadmap_tradeoffs", "cross_functional_facilitation", "owns_outcomes"],
+    "recommendedMinScore": 48,
+    "stretchMinScore": 40,
+    "guardedRole": true
+  },
+  {
+    "roleId": "finance",
+    "weights": {
+      "communication": 2,
+      "persuasion": 0,
+      "analytical_reasoning": 4,
+      "quantitative_comfort": 5,
+      "detail_orientation": 4,
+      "customer_empathy": 0,
+      "process_thinking": 1,
+      "execution_discipline": 3,
+      "cross_functional_collaboration": 0,
+      "ambiguity_tolerance": 2,
+      "technical_comfort": 0,
+      "systems_thinking": 1,
+      "initiative_ownership": 0,
+      "presentation_comfort": 1
+    },
+    "targetThresholds": {
+      "quantitative_comfort": 56,
+      "analytical_reasoning": 50,
+      "detail_orientation": 48,
+      "execution_discipline": 42
+    },
+    "criticalThresholds": {
+      "quantitative_comfort": 56,
+      "analytical_reasoning": 50,
+      "detail_orientation": 48
+    },
+    "requiredEvidence": ["financial_modeling"],
+    "recommendedMinScore": 48,
+    "stretchMinScore": 40
+  },
+  {
+    "roleId": "accounting",
+    "weights": {
+      "communication": 1,
+      "persuasion": 0,
+      "analytical_reasoning": 2,
+      "quantitative_comfort": 4,
+      "detail_orientation": 5,
+      "customer_empathy": 0,
+      "process_thinking": 3,
+      "execution_discipline": 4,
+      "cross_functional_collaboration": 0,
+      "ambiguity_tolerance": 0,
+      "technical_comfort": 0,
+      "systems_thinking": 1,
+      "initiative_ownership": 0,
+      "presentation_comfort": 0
+    },
+    "targetThresholds": {
+      "detail_orientation": 58,
+      "quantitative_comfort": 52,
+      "execution_discipline": 46,
+      "process_thinking": 42
+    },
+    "criticalThresholds": {
+      "detail_orientation": 58,
+      "quantitative_comfort": 52,
+      "execution_discipline": 46
+    },
+    "requiredEvidence": ["controls_accuracy"],
+    "recommendedMinScore": 48,
+    "stretchMinScore": 39
+  },
+  {
+    "roleId": "customer_success",
+    "weights": {
+      "communication": 5,
+      "persuasion": 1,
+      "analytical_reasoning": 1,
+      "quantitative_comfort": 0,
+      "detail_orientation": 1,
+      "customer_empathy": 5,
+      "process_thinking": 0,
+      "execution_discipline": 3,
+      "cross_functional_collaboration": 4,
+      "ambiguity_tolerance": 3,
+      "technical_comfort": 1,
+      "systems_thinking": 1,
+      "initiative_ownership": 3,
+      "presentation_comfort": 1
+    },
+    "targetThresholds": {
+      "customer_empathy": 56,
+      "communication": 56,
+      "cross_functional_collaboration": 48,
+      "execution_discipline": 42
+    },
+    "criticalThresholds": {
+      "customer_empathy": 56,
+      "communication": 56,
+      "cross_functional_collaboration": 48
+    },
+    "requiredEvidence": ["client_facing"],
+    "recommendedMinScore": 46,
+    "stretchMinScore": 38
+  },
+  {
+    "roleId": "business_systems_analyst",
+    "weights": {
+      "communication": 3,
+      "persuasion": 0,
+      "analytical_reasoning": 4,
+      "quantitative_comfort": 2,
+      "detail_orientation": 3,
+      "customer_empathy": 0,
+      "process_thinking": 4,
+      "execution_discipline": 1,
+      "cross_functional_collaboration": 2,
+      "ambiguity_tolerance": 1,
+      "technical_comfort": 4,
+      "systems_thinking": 5,
+      "initiative_ownership": 0,
+      "presentation_comfort": 1
+    },
+    "targetThresholds": {
+      "systems_thinking": 50,
+      "process_thinking": 46,
+      "analytical_reasoning": 46,
+      "technical_comfort": 42,
+      "communication": 40
+    },
+    "criticalThresholds": {
+      "systems_thinking": 50,
+      "process_thinking": 46,
+      "analytical_reasoning": 46,
+      "technical_comfort": 42
+    },
+    "requiredEvidence": ["system_configuration", "workflow_optimization"],
+    "recommendedMinScore": 46,
+    "stretchMinScore": 38
+  }
+]
